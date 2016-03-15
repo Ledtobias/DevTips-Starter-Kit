@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'KievitPro-Medium';
-  src: url("{{site.baseurl}}/assets/font/KievitPro-Medium.otf") format("opentype");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  src: url("../font/kievitpro-medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/kievitpro-medium.eot?#iefix") format("embedded-opentype"), url("../font/kievitpro-medium.woff2") format("woff2"), url("../font/kievitpro-medium.woff") format("woff"), url("../font/kievitpro-medium.ttf") format("truetype"), url("../font/kievitpro-medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -188,7 +190,7 @@ body {
   background-color: white;
   font-size: 18px;
   line-height: 1.6;
-  font-family: "KievitPro", sans-serif;
+  font-family: "KievitPro-Medium", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -231,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px; }
 
 .large, h2 {
-  font-size: 38px;
+  font-size: 22px;
   font-weight: 100;
   line-height: 1.3;
   letter-spacing: 0.4em; }
@@ -286,9 +288,11 @@ header {
   z-index: 2; }
 
 .post {
-  height: 400px;
-  margin-bottom: 0;
-  padding: 80px 0 0 0;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   text-transform: lowercase;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -297,18 +301,20 @@ header {
   background-position: center;
   background-size: cover; }
   .post:hover .post_title {
-    margin-left: -40px;
     opacity: 1; }
   .post .post_title {
-    width: 260px;
-    margin-left: 0;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     transition: all 0.3s ease-in-out;
-    text-align: right;
-    position: absolute;
-    display: none; }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; }
     .post .post_title li h2 {
-      margin: 0; }
+      margin: 0 10px;
+      transition: all 0.3s ease-in-out; }
     .post .post_title li p {
       margin: 0;
       opacity: 0.3; }
@@ -318,9 +324,9 @@ header {
     max-width: 90%; }
 
   .post {
-    height: 360px; } }
+    height: 400px; } }
 @media (max-width: 640px) {
   .post {
-    height: 260px; } }
+    height: 280px; } }
 
 /*# sourceMappingURL=main.css.map */
