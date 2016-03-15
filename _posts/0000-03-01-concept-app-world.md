@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Concept App World
 category: Concept
 folder: 0000-03-01

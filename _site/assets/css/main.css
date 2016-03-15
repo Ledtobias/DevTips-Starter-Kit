@@ -228,9 +228,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 68px;
-  line-height: 1.05;
-  letter-spacing: -1px; }
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.4em; }
 
 .large, h2 {
   font-size: 22px;
