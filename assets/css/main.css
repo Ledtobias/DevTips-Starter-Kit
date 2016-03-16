@@ -4,6 +4,18 @@
   /* IE9 Compat Modes */
   src: url("../font/kievitpro-medium.eot?#iefix") format("embedded-opentype"), url("../font/kievitpro-medium.woff2") format("woff2"), url("../font/kievitpro-medium.woff") format("woff"), url("../font/kievitpro-medium.ttf") format("truetype"), url("../font/kievitpro-medium.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
+@font-face {
+  font-family: 'KievitPro-Book';
+  src: url("../font/kievitpro-book.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/kievitpro-book.eot?#iefix") format("embedded-opentype"), url("../font/kievitpro-book.woff2") format("woff2"), url("../font/kievitpro-book.woff") format("woff"), url("../font/kievitpro-book.ttf") format("truetype"), url("../font/kievitpro-book.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'NewEspritPro-Regular';
+  src: url("../font/NewEspritITCPro-Rg.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/NewEspritITCPro-Rg.eot?#iefix") format("embedded-opentype"), url("../font/NewEspritITCPro-Rg.woff2") format("woff2"), url("../font/NewEspritITCPro-Rg.woff") format("woff"), url("../font/NewEspritITCPro-Rg.ttf") format("truetype"), url("../font/NewEspritITCPro-Rg.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -188,10 +200,10 @@ th {
 
 body {
   background-color: white;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;
-  font-family: "KievitPro-Medium", sans-serif;
-  color: #666;
+  font-family: "NewEspritPro-Regular", sans-serif;
+  color: #111;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%; }
@@ -220,6 +232,8 @@ a {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
+  font-family: "KievitPro-Book";
+  text-transform: lowercase;
   color: #031561; }
 
 .gigantic {
@@ -328,5 +342,25 @@ header {
 @media (max-width: 640px) {
   .post {
     height: 280px; } }
+.projectdescription {
+  max-width: 900px;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 5% 5% 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+h1 {
+  min-width: 320px;
+  width: 40%;
+  text-align: right;
+  padding: 0 50px;
+  align-self: flex-end; }
+
+.introduction {
+  width: 40%;
+  min-width: 300px;
+  align-self: flex-start; }
 
 /*# sourceMappingURL=main.css.map */
