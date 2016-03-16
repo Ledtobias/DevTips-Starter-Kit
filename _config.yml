@@ -1,2 +1,3 @@
 baseurl: /FuchsbergerTobias
 exclude: ['README.md']
+permalink: none
