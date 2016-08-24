@@ -232,7 +232,7 @@ a {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  font-family: "KievitPro-Medium";
+  font-family: "KievitPro-Book";
   text-transform: lowercase;
   color: #031561; }
 
@@ -291,9 +291,15 @@ header {
   align-items: center;
   text-align: center; }
 
+.logo {
+  z-index: 10000; }
+
+.logoFixed {
+  z-index: 100;
+  top: 0; }
+
 .logo img {
   margin-top: 0px;
-  width: 48px;
   align-self: center; }
 
 span {
@@ -374,5 +380,3 @@ h1 {
   width: 40%;
   min-width: 300px;
   align-self: flex-start; }
-
-/*# sourceMappingURL=main.css.map */
