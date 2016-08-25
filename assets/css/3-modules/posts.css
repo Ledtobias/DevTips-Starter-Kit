@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$silver".
-        on line 24 of C:/Users/Tobias/Documents/FuchsbergerTobias/assets/css/3-modules/posts.sass
+        on line 31 of C:\Users\Tobias\Documents\FuchsbergerTobias\assets\css\3-modules\posts.sass
 
-19:   padding: 20px
-20:   text-transform: lowercase
-21:   cursor: pointer
-22:   transition: $transition
-23:   background:
-24:     color: $silver
-25:     repeat: no-repeat
-26:     position: center
-27:     size: cover
-28: 
-29:   &:hover
+26:   margin-bottom: 100px
+27:   text-transform: lowercase
+28:   cursor: pointer
+29:   transition: $transition
+30:   background:
+31:     color: $silver
+32:     repeat: no-repeat
+33:     position: center
+34:     size: cover
+35: 
+36: @media (max-width: $breakpoint-large)
 
 Backtrace:
-C:/Users/Tobias/Documents/FuchsbergerTobias/assets/css/3-modules/posts.sass:24
+C:\Users\Tobias\Documents\FuchsbergerTobias\assets\css\3-modules\posts.sass:31
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -75,4 +75,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$silver\".\A         on line 24 of C:/Users/Tobias/Documents/FuchsbergerTobias/assets/css/3-modules/posts.sass\A \A 19:   padding: 20px\A 20:   text-transform: lowercase\A 21:   cursor: pointer\A 22:   transition: $transition\A 23:   background:\A 24:     color: $silver\A 25:     repeat: no-repeat\A 26:     position: center\A 27:     size: cover\A 28: \A 29:   &:hover"; }
+  content: "Error: Undefined variable: \"$silver\".\A         on line 31 of C:\Users\Tobias\Documents\FuchsbergerTobias\assets\css\3-modules\posts.sass\A \A 26:   margin-bottom: 100px\A 27:   text-transform: lowercase\A 28:   cursor: pointer\A 29:   transition: $transition\A 30:   background:\A 31:     color: $silver\A 32:     repeat: no-repeat\A 33:     position: center\A 34:     size: cover\A 35: \A 36: @media (max-width: $breakpoint-large)"; }

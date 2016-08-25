@@ -1,17 +1,15 @@
 // Parallax Logo
 
-$(window).scroll(function(){
+$(document).scroll(function(){
   var wScroll = $(this).scrollTop();
 
-  if(wScroll > $(window).height() - 200){
+  if(wScroll > $(window).height()){
     $('.logo').addClass('logoFixed').css({
-      'transform' : 'translate(0px, '+ 100% - 200 +'%)',
-      position : 'fixed'
+      'transform' : 'translate(0px, 0px)'
     })
   } else {
     $('.logo').removeClass('logoFixed').css({
-      'transform' : 'translate(0px, '+ wScroll /1.2 +'%)',
-      position : 'static'
+      'transform' : 'translate(0px, -'+ wScroll /2 +'%)'
     });
   }
 
@@ -21,5 +19,15 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, '+ wScroll /2 +'%)',
     'opacity' : 1 - wScroll/150
   });
+
+  // Menu FadeIn
+
+  if (wScroll > $(window).height() -50){
+    $('.menu').fadeIn().css({
+      'display' : 'flex'
+    });
+  } else {
+    $('.menu').fadeOut()
+  }
 
 });

@@ -224,33 +224,29 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 a {
-  color: #0074D9;
+  color: #000;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #40a6ff; }
+    color: #333333; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   font-family: "KievitPro-Book";
-  text-transform: lowercase;
-  color: #031561; }
+  color: #111; }
 
 .gigantic {
   font-size: 110px;
-  line-height: 1.09;
-  letter-spacing: -2px; }
+  line-height: 1.09; }
 
 .huge, h1 {
   font-size: 50px;
-  line-height: 1.2;
-  letter-spacing: 0.4em; }
+  line-height: 1.2; }
 
 .large, h2 {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 100;
-  line-height: 1.3;
-  letter-spacing: 0.4em; }
+  line-height: 1.3; }
 
 .bigger, h3 {
   font-size: 26px;
@@ -268,7 +264,8 @@ p {
   margin: 0 0 20px 0; }
 
 em {
-  font-style: italic; }
+  font-style: italic;
+  margin-bottom: 0; }
 
 strong {
   font-weight: bold; }
@@ -292,15 +289,30 @@ header {
   text-align: center; }
 
 .logo {
-  z-index: 10000; }
+  z-index: 100;
+  position: fixed;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
+.menu {
+  z-index: 50;
+  position: fixed;
+  width: calc(100% - 80px);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: none; }
 
 .logoFixed {
   z-index: 100;
-  top: 0; }
-
-.logo img {
-  margin-top: 0px;
-  align-self: center; }
+  top: 0;
+  margin-top: 0; }
 
 span {
   display: block; }
@@ -313,18 +325,25 @@ span {
 
 .posts {
   position: relative;
-  max-width: 900px;
+  max-width: 720px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
   z-index: 2; }
 
+.post_title {
+  padding: 0 40px; }
+
+h2 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 50px; }
+
 .post {
-  height: 460px;
+  height: 640px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin-bottom: 100px;
   text-transform: lowercase;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -332,34 +351,19 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
-  .post:hover .post_title {
-    opacity: 1; }
-  .post .post_title {
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff; }
-    .post .post_title li h2 {
-      margin: 0 10px;
-      transition: all 0.3s ease-in-out; }
-    .post .post_title li p {
-      margin: 0;
-      opacity: 0.3; }
 
 @media (max-width: 1018px) {
+  .posts {
+    max-width: 580px; }
+
+  .post {
+    height: 520px; } }
+@media (max-width: 640px) {
   .posts {
     max-width: 90%; }
 
   .post {
-    height: 400px; } }
-@media (max-width: 640px) {
-  .post {
-    height: 280px; } }
+    height: 320px; } }
 .projectdescription {
   max-width: 900px;
   height: 70vh;

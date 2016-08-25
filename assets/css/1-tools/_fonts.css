@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'KievitPro-Medium';
+  src: url("../font/kievitpro-medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/kievitpro-medium.eot?#iefix") format("embedded-opentype"), url("../font/kievitpro-medium.woff2") format("woff2"), url("../font/kievitpro-medium.woff") format("woff"), url("../font/kievitpro-medium.ttf") format("truetype"), url("../font/kievitpro-medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'KievitPro-Book';
+  src: url("../font/KievitPro-Book.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/KievitPro-Book.eot?#iefix") format("embedded-opentype"), url("../font/KievitPro-Book.woff2") format("woff2"), url("../font/KievitPro-Book.woff") format("woff"), url("../font/KievitPro-Book.ttf") format("truetype"), url("../font/KievitPro-Book.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'NewEspritPro-Regular';
+  src: url("../font/NewEspritITCPro-Rg.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/NewEspritITCPro-Rg.eot?#iefix") format("embedded-opentype"), url("../font/NewEspritITCPro-Rg.woff2") format("woff2"), url("../font/NewEspritITCPro-Rg.woff") format("woff"), url("../font/NewEspritITCPro-Rg.ttf") format("truetype"), url("../font/NewEspritITCPro-Rg.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
