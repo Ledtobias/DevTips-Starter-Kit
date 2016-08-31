@@ -1,29 +1,29 @@
 @font-face {
-  font-family: 'KievitPro-Medium';
-  src: url('../font/kievitpro-medium.eot'); /* IE9 Compat Modes */
-  src: url('../font/kievitpro-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/kievitpro-medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/kievitpro-medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../font/kievitpro-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/kievitpro-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: 'KievitPro-Book';
-  src: url('../font/KievitPro-Book.eot'); /* IE9 Compat Modes */
-  src: url('../font/KievitPro-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/KievitPro-Book.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/KievitPro-Book.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../font/KievitPro-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/KievitPro-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
   font-family: 'NewEspritPro-Regular';
-  src: url('../font/NewEspritITCPro-Rg.eot'); /* IE9 Compat Modes */
-  src: url('../font/NewEspritITCPro-Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/NewEspritITCPro-Rg.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/NewEspritITCPro-Rg.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../font/NewEspritITCPro-Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/NewEspritITCPro-Rg.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../font/newesprit/NewEspritITCPro-Rg.eot'); /* IE9 Compat Modes */
+  src: url('../font/newesprit/NewEspritITCPro-Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/newesprit/NewEspritITCPro-Rg.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/newesprit/NewEspritITCPro-Rg.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/newesprit/NewEspritITCPro-Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/newesprit/NewEspritITCPro-Rg.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'NewEspritPro-Italic';
+  src: url('../font/newespirt/NewEspritITCPro-It.eot'); /* IE9 Compat Modes */
+  src: url('../font/newespirt/NewEspritITCPro-It.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/newespirt/NewEspritITCPro-It.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/newespirt/NewEspritITCPro-It.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/newespirt/NewEspritITCPro-It.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/newespirt/NewEspritITCPro-It.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'NeueHaas-Medium';
+  src: url('../font/neuehaas/NHaasGroteskTXPro-65Md.eot'); /* IE9 Compat Modes */
+  src: url('../font/neuehaas/NHaasGroteskTXPro-65Md.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/neuehaas/NHaasGroteskTXPro-65Md.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/neuehaas/NHaasGroteskTXPro-65Md.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/neuehaas/NHaasGroteskTXPro-65Md.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/neuehaas/NHaasGroteskTXPro-65Md.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
