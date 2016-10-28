@@ -2,6 +2,8 @@
 layout: post
 title: A billion tears '69 band concept
 category: Concept
+description: Concept
+minutestoread: 3
 folder: 0000-01-01
 image: 01.jpg
 ---

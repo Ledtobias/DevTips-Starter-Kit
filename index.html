@@ -6,11 +6,10 @@ layout: default
 
 <ul class="posts">
   {% for post in site.posts %}
-    <div class="post_title">
-      <em>{{post.category}}</em>
+    <div class="post">
       <h2>{{post.title}}</h2>
+      <em>{{post.description}}</em>
+      <label>~ {{post.minutestoread}} min</label>
     </div>
-    <li onclick="location.href='{{site.baseurl}}{{post.url}}';" class="post" style="background-image: url({{site.baseurl}}/assets/img/posts/{{post.folder}}/{{post.image}});">
-    </li>
   {% endfor %}
 </ul>

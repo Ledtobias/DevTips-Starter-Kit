@@ -5,46 +5,27 @@ $transition: all 0.3s ease-in-out
 
 .posts
   position: relative
-  max-width: 720px
+  max-width: 680px
   width: 100%
   margin: 0 auto
   padding: 0
   z-index: 2
 
-.post_title
-  padding: 0 40px
-
 h2
   -webkit-margin-before: 0
-  -webkit-margin-after: 50px
+  -webkit-margin-after: 10px
 
 .post
-  height: 640px
-  display: flex
-  justify-content: center
-  align-items: center
-  margin-bottom: 100px
-  text-transform: lowercase
+  margin-bottom: 120px
   cursor: pointer
   transition: $transition
-  background:
-    color: $silver
-    repeat: no-repeat
-    position: center
-    size: cover
 
 @media (max-width: $breakpoint-large)
 
   .posts
     max-width: 580px
 
-  .post
-    height: 520px
-
 @media (max-width: $breakpoint-small)
 
   .posts
     max-width: 90%
-
-  .post
-    height: 320px
