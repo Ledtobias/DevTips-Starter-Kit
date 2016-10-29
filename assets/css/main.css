@@ -322,9 +322,9 @@ h2 {
   -webkit-margin-after: 10px; }
 
 .post {
-  margin-bottom: 120px;
+  height: 200px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out; }
+  position: relative; }
 
 @media (max-width: 1018px) {
   .posts {
@@ -347,6 +347,15 @@ h2 {
 
 .filter img {
   width: 24px; }
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 10px; }
+
+.post em {
+  position: relative; }
 
 .projectdescription {
   max-width: 900px;
